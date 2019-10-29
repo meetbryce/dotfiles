@@ -49,7 +49,7 @@ echo "brew installing stuff"
 # ffmpeg: eventually I'll need this for something
 # tree: really handy for listing out directories in text
 # bat: A cat(1) clone with syntax highlighting and Git integration.
-brew install git hub ripgrep imagemagick bash-completion watchman tree bat
+brew install git hub ripgrep imagemagick bash-completion watchman tree bat jq
 # yarn: without node because we'll get it from installing n later
 brew install yarn --without-node
 
@@ -63,7 +63,7 @@ echo "installing a few global npm packages"
 npm install --global serve fkill-cli
 
 echo "installing apps with brew cask"
-brew cask install alfred google-chrome firefox divvy bartender google-drive-file-stream itsycal visual-studio-code 1password virtualbox slack imageoptim iina betterzip sip qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook suspicious-package qlvideo qlimagesize lastpass iterm2 jetbrains-toolbox spotify
+brew cask install alfred google-chrome firefox divvy bartender google-drive-file-stream itsycal visual-studio-code 1password virtualbox slack imageoptim iina betterzip sip qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook suspicious-package qlvideo qlimagesize lastpass iterm2 jetbrains-toolbox spotify tower
 
 echo "Generating an RSA token for GitHub"
 mkdir -p ~/.ssh
