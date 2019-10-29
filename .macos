@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # ~/.macos — https://mths.be/macos
-# ENTER YOUR OWN EMAIL ON LINE:61
+# TODO => ENTER YOUR OWN EMAIL ON LINE:61
+# TODO => ENTER YOU DEVICE NAME ON LINES:85-88
 # Run without downloading:
 # curl https://raw.githubusercontent.com/<username>/dotfiles/master/.macos | bash
 
