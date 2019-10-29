@@ -16,11 +16,23 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.macos` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+echo "Hello $(whoami)! Let's get you set up."
+
+###############################################################################
+# Bryce's Customizations                                                      #
+###############################################################################
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# TODO => add my zsh ~/.zshrc file to this repo and clone it in via at this step
+
+# TODO => add my zsh/iterm color scheme and configure it here
+
+
 ###############################################################################
 # Kent's Customizations                                                       #
 ###############################################################################
-
-echo "Hello $(whoami)! Let's get you set up."
 
 #echo "mkdir -p $(HOME)/code"
 #mkdir -p "$(HOME)/code"
@@ -51,7 +63,7 @@ echo "installing a few global npm packages"
 npm install --global serve fkill-cli
 
 echo "installing apps with brew cask"
-brew cask install alfred google-chrome firefox divvy bartender google-drive-file-stream itsycal visual-studio-code 1password virtualbox slack imageoptim iina betterzip sip qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook suspicious-package qlvideo qlimagesize lastpass iterm2
+brew cask install alfred google-chrome firefox divvy bartender google-drive-file-stream itsycal visual-studio-code 1password virtualbox slack imageoptim iina betterzip sip qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook suspicious-package qlvideo qlimagesize lastpass iterm2 jetbrains-toolbox
 
 echo "Generating an RSA token for GitHub"
 mkdir -p ~/.ssh
