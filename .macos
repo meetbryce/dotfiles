@@ -51,9 +51,7 @@ echo "brew installing stuff"
 # ffmpeg: eventually I'll need this for something
 # tree: really handy for listing out directories in text
 # bat: A cat(1) clone with syntax highlighting and Git integration.
-brew install git hub ripgrep imagemagick bash-completion watchman tree bat jq
-# yarn: without node because we'll get it from installing n later
-brew install yarn --without-node
+brew install git hub ripgrep imagemagick bash-completion watchman tree bat jq yarn
 
 echo "installing node (via n-install)"
 curl -L https://git.io/n-install | bash
