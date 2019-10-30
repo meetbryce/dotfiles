@@ -57,7 +57,7 @@ echo "installing node (via n)"
 brew install n
 
 echo "switching to stable version of node via n"
-n stable
+sudo n stable
 
 echo "node --version: $(node --version)"
 echo "npm --version: $(npm --version)"
