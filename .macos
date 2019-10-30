@@ -29,6 +29,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # TODO => add my zsh/iterm color scheme and configure it here
 
+# TODO => configure iterm2 to use 'fira code' with font 13 & linespace 120
+
 
 ###############################################################################
 # Kent's Customizations                                                       #
