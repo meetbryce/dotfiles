@@ -63,7 +63,8 @@ echo "installing a few global npm packages"
 npm install --global serve fkill-cli
 
 echo "installing apps with brew cask"
-brew cask install alfred google-chrome firefox spectacle bartender google-drive-file-stream itsycal visual-studio-code 1password virtualbox slack imageoptim iina betterzip sip qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook suspicious-package qlvideo qlimagesize lastpass iterm2 jetbrains-toolbox spotify tower
+brew tap homebrew/cask-fonts
+brew cask install alfred google-chrome firefox spectacle bartender google-drive-file-stream itsycal visual-studio-code 1password virtualbox slack imageoptim iina betterzip sip qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook suspicious-package qlvideo qlimagesize lastpass iterm2 jetbrains-toolbox spotify tower font-fira-code
 
 echo "Generating an RSA token for GitHub"
 mkdir -p ~/.ssh
